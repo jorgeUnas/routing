@@ -24,7 +24,7 @@ export default function Articles () {
         { filteredArticles.map(article => (
           <li key={article.slug}>
             {/* Replace these a tags! */}
-            <Link href={`${article.slug}`}>
+            <Link to={`${article.slug}`}>
               {article.title}
             </Link>
           </li>
