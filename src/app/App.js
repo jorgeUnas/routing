@@ -24,7 +24,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="categories" element={ <Categories /> } /> 
       <Route path=":name" element={ <Category /> } /> 
     <Route path="profile" element={ <Profile /> } /> 
-      <Route path="edit" element={ <EditProfileForm /> } /> 
+      <Route path="/edit" element={ <EditProfileForm /> } /> 
   </Route>
 ));
 
